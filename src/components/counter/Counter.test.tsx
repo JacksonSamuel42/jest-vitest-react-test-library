@@ -44,7 +44,7 @@ describe('Counter', () => {
         expect(countElement).toHaveTextContent('2')
     });
 
-    test('renders a count of after clicking thr set button', async() => {
+    test('renders a count of after clicking the set button', async() => {
         user.setup()
         const screen = render(<Counter/>)
 
